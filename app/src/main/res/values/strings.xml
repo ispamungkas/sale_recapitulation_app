@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">RecapitulationApps</string>
+    <string name="app_name">WIA</string>
+    <string name="app_company">PT Wearinasia Internet Akselerasi</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
