@@ -1,4 +1,4 @@
-package com.example.recapitulationapps.ui.theme
+package com.example.recapitulationapps.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
