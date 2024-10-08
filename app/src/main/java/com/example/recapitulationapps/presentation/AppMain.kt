@@ -1,13 +1,13 @@
 package com.example.recapitulationapps.presentation
 
-import LoginScreen
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.recapitulationapps.presentation.home.HomeScreen
+import com.example.recapitulationapps.presentation.ui.home.HomeScreen
+import com.example.recapitulationapps.presentation.ui.login.LoginScreen
 
 @Composable
 fun AppMain(

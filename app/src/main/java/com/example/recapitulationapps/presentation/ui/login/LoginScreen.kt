@@ -1,3 +1,5 @@
+package com.example.recapitulationapps.presentation.ui.login
+
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text

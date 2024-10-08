@@ -1,4 +1,4 @@
-package com.example.recapitulationapps.presentation.home
+package com.example.recapitulationapps.presentation.ui.home
 
 import androidx.lifecycle.ViewModel
 
