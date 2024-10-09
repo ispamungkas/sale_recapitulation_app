@@ -1,3 +1,5 @@
+package com.example.recapitulationapps.presentation.theme
+
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily

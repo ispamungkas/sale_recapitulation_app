@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import com.example.recapitulationapps.presentation.theme.AppTypography
 import com.example.recapitulationapps.presentation.theme.backgroundDark
 import com.example.recapitulationapps.presentation.theme.backgroundDarkHighContrast
 import com.example.recapitulationapps.presentation.theme.backgroundDarkMediumContrast

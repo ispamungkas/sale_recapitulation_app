@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">WIA</string>
-    <string name="app_company">PT Wearinasia Internet Akselerasi</string>
-    <string name="title_activity_login">LoginActivity</string>
+    <string name="app_name" translatable="false">WIA</string>
+    <string name="app_company" translatable="false">PT Wearinasia Internet Akselerasi</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="loading">Loading...</string>
+    <string name="let_sign_you_in">let’s Sign you in</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="you_have_been_missed">You’he been missed !</string>
 </resources>

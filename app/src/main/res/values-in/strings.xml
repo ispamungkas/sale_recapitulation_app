@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">Harap tunggu...</string>
+    <string name="let_sign_you_in">Silahkan Login</string>
+    <string name="welcome_back">Selamat Datang Kembali</string>
+    <string name="you_have_been_missed">Kedatangan Anda Kami Rindukan</string>
+</resources>

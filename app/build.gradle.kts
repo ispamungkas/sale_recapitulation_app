@@ -78,4 +78,6 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.androidx.lifecycle.viewmodel)
     implementation(libs.androidx.lifecycle.livedata)
+    implementation(libs.coil.compose)
+    implementation(libs.coil.gif)
 }

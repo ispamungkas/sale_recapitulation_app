@@ -1,5 +1,6 @@
 package com.example.recapitulationapps
 
+import WiaTheme
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +11,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.recapitulationapps.presentation.AppMain
-import com.example.recapitulationapps.presentation.theme.RecapitulationAppsTheme
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("WrongConstant")
@@ -18,7 +18,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            RecapitulationAppsTheme {
+            WiaTheme(
+                dynamicColor = false
+            ) {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     AppMain(modifier = Modifier.padding(innerPadding))
                 }
