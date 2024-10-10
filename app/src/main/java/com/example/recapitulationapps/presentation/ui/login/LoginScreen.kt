@@ -32,8 +32,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.recapitulationapps.R
-import com.example.recapitulationapps.presentation.component.ButtonComponent
-import com.example.recapitulationapps.presentation.component.TextFieldComponent
+import com.example.recapitulationapps.presentation.component.common.ButtonComponent
+import com.example.recapitulationapps.presentation.component.common.TextFieldComponent
 import com.example.recapitulationapps.presentation.component.load.LoadingComponent
 import kotlinx.coroutines.delay
 

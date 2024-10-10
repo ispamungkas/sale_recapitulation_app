@@ -1,4 +1,4 @@
-package com.example.recapitulationapps.presentation.component
+package com.example.recapitulationapps.presentation.component.common
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.layout.Box

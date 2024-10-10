@@ -1,4 +1,4 @@
-package com.example.recapitulationapps.presentation.component
+package com.example.recapitulationapps.presentation.component.common
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

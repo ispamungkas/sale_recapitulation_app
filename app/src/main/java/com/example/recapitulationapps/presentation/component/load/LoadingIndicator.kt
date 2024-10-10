@@ -40,8 +40,8 @@ fun LoadingIndicator(
         LaunchedEffect(key1 = animating) {
             if (animating) {
                 animate(
-                    initialValue = IndicatorSize / 2,
-                    targetValue = IndicatorSize / 2,
+                    initialValue = IndicatorSize/2,
+                    targetValue = -IndicatorSize/2,
                     animationSpec = infiniteRepeatable(
                         animation = tween(durationMillis = AnimateDurationMillis),
                         repeatMode = RepeatMode.Reverse,

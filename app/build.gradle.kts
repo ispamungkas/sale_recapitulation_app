@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.kotlin.serialization.json)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -65,6 +66,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -80,4 +82,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata)
     implementation(libs.coil.compose)
     implementation(libs.coil.gif)
+    implementation(libs.firebase.bom)
+    implementation(libs.androidx.data.store)
 }
