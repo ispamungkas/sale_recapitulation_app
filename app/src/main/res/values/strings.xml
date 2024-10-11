@@ -6,4 +6,6 @@
     <string name="let_sign_you_in">let’s Sign you in</string>
     <string name="welcome_back">Welcome Back</string>
     <string name="you_have_been_missed">You’he been missed !</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="login_unsuccessfuly">Login Authentication failed, please try again</string>
 </resources>
